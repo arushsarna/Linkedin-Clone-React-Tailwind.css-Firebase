@@ -1,10 +1,10 @@
 
 import React from 'react';
-import logo from './login-logo.svg';
+import logo from '../assets/images/login-logo.svg';
 import google from '../assets/images/google.svg';
 
 const Login = (props) => {
-    return (<div className=" bg-[#f3f2ef] flex flex-col item-center justify-center w-full h-full content-center">
+    return (<div className=" bg-[#f3f2ef] flex flex-col item-center justify-center w-full h-screen content-center">
         <div className=" w-full mt-10 items-center flex flex-col ">
 
             <img className=" w-1/6  " src={logo} alt="" />
