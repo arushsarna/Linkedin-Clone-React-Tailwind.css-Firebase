@@ -1,6 +1,6 @@
 import LeftSide from "./LeftSide";
-import RightSide from "./HomeContent/RightSide";
-import Main from "./HomeContent/Main";
+import RightSide from "./RightSide";
+import Main from "./Main";
 
 const Home = (props) => {
 
