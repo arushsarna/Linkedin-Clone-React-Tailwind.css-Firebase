@@ -45,8 +45,8 @@ const Main = (props) => {
                     <div className=" relative top-7 text-xs antialiased text-gray-500 flex"> Sort by: </div>
 
                     <select className="relative top-7 text-xs font-semibold pl-1 bg-[#f3f2ef] text-black flex" name="cars" id="cars">
-                        <option value="volvo">Top</option>
-                        <option value="saab">Recent</option>
+                        <option value="recent">Recent</option>
+                        <option value="top">Top</option>
 
                     </select>
 
